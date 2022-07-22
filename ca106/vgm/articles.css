@@ -1,0 +1,166 @@
+/*body*/
+body {
+	margin: 0;		/*THIS STYLE SHEET CONTAINS GENERAL STYLES FOR ALL THE ARTICLES AND SOME STYLES SPECIFIC TO ELEMENTS IN CERTAIN ARTICLES */
+	padding: 0;     /*THESE STYLES MAKES SURE THE NAVBAR IS LONG ENOUGH TO FIT THE ENTIRE TOP OF THE PAGE*/
+}
+
+
+/* colours and font */	/*THESE STYLES ARE EXPLAINED IN INDEXVGM.CSS*/
+body{
+    background-color: #1A1B25; 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* navbar */
+.navbar {
+	z-index: 1;	/*THIS WAS ADDED AFTER I NOTICED MY AUDIOFILES OVERLAPPED MY NAVBAR WHEN SCROLLING. THE NAVBAR'S Z-INDEX BEING CHANGED TO 1 MAKES IT THE TOP LAYER OF THE WEBPAGE, IT NOW OVERLAPS THE AUDIO FILES */
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #48297A, #822E81);	/*THESE STYLES ARE EXPLAINED IN INDEXVGM.CSS*/
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 200%;
+}
+
+.navbar li a:hover{
+    background-color: #1f0625;
+    color: white;
+}
+
+.navbar {
+	top: 0%;
+	position: fixed; /*THE NAVBAR NOW STAYS IN PLACE AS YOU SCROLL */
+	width: 100%;		/*THIS MAKES SURE THE NAVBAR IS LONG ENOUGH TO FIT THE ENTIRE TOP OF THE PAGE*/
+	border-bottom: 10px solid #392061;
+}
+
+/* article */
+.article {
+	margin-left: auto; /*THIS MAKES POSITIONS THE ARTICLE IN THE CENTRE OF THE PAGE */
+	margin-right: auto;
+	margin-top: 70px; /*THE MARGIN FROM THE TOP WAS CHANGED SO THE NAVBAR WOULD NOT OVERLAP THE TOP OF THE ARTICLE */
+	margin-bottom: 5px;
+	max-width: 60%; /*THIS ALSO HELPS MAKE THE POSITION OF THE ARTICLE IN THE CENTRE OF THE PAGE */
+	background-color: rgba(130,46,129,0.2); /*THIS IS A TRANSPARENT BACKGROUND FOR THE ARTICLE*/
+}
+
+.article > p {
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.article a {
+	color: #A63AA4;	
+	font-size: 16px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.intro > p {
+	text-align: center; /*THIS WAS ADDED WHEN I FELT THE INTRO TO THE ARTICLE LOOKED BETTER CENTRED*/
+}
+
+/*audio*/
+.audio {
+	float: right; 		/*THE AUDIOFILE IS POSITIONED TO THE RIGHT AND THE PARAGRAPH NEXT TO IT WRAPS AROUND IT */
+	color: #A63AA4;		/*THIS CHANGES THE COLOUR OF THE <P> ELEMENT INSIDE THE AUDIO CLASS - THE COLOUR IS A BRIGHT PURPLE*/
+	font-size: 15px;	
+	text-align: center; /*CENTRES AUDIO FILE AND <P> ELEMENT*/
+}
+
+
+
+/*images for Article 1*/
+.yoko-manami > img {
+	margin: 1.5px;
+	border: dotted 1px #A63AA4;
+	float: right;
+}
+
+.rapture > img {
+	margin-bottom: 15px;
+	margin-left: 20px;
+	border: dotted 1px #A63AA4;
+}
+
+/*styles for undertale article*/
+.undertale > p {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.snowdin > img {
+	margin-bottom: 10px;
+	margin-left: 45px;
+	border: dotted 1px #A63AA4;
+}
+
+.header-image > img{
+	border: dotted 1px #A63AA4;
+	border-bottom: solid 5px #A63AA4;
+}
+
+.megalovania {
+	color: #A63AA4;
+	font-size: 15px;
+	text-align: center;
+}
+
+.megalovania > img {
+	    width: 90%;
+		border: dotted 1px #A63AA4;
+}
+
+/*styles for minecraft article*/
+	
+.left > img{						/*CLASS CREATED FOR WHEN I WANT IMAGES TO BE POSITIONED TO THE LEFT*/
+	border: dotted 1px #A63AA4;
+	margin: 5px;
+	float: left;
+}
+
+.nether-images > img {
+	margin-left: 20px;
+	border: dotted 1px #A63AA4;
+}
+
+/*styles for pikmin article*/
+.pikmin-images > img {
+	border: dotted 1px #A63AA4;
+	margin-left: 30px;
+}
+
+/*styles for last article*/
+.zelda > img {
+	border: dotted 1px #A63AA4;
+	float:right;
+	margin-right: 20px;
+}
+	
+/* table styles */
+table {
+	margin-left: 20%;
+}
+	
+
+	
+	
