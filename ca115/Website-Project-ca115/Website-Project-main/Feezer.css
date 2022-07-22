@@ -1,0 +1,374 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #06BEE1;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+body {
+	color: #F9F6EE;
+	text-shadow: 2px 2px 2px #1a1b25;
+	text-align: center;
+}
+.navbar {
+    z-index: 1;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-color: #1768AC;
+	text-shadow: 5px 5px 5px #1a1b25;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+	transition: all ease-in-out 400ms;
+}
+
+.navbar {
+    top: 0%;
+    position: fixed; /*THE NAVBAR NOW STAYS IN PLACE AS YOU SCROLL */
+    width: 100%;        /*THIS MAKES SURE THE NAVBAR IS LONG ENOUGH TO FIT THE ENTIRE TOP OF THE PAGE*/
+}
+
+.navbar {
+	border-bottom: 10px solid #03256C; /*BORDER SEPERATING NAVBAR FROM REST OF DOCUMENT*/
+}
+
+
+.banner > img {
+	margin-right: auto;
+	width: 65%;
+	border: ridge 3px #2541B2;
+}
+
+.content {
+	padding-top: 20px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 65%;
+	background-color: #145890;
+}
+
+
+.pricingimage1 > img {
+	border: solid 1px white;
+	border-radius: 10%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+.contact {
+	color: black;
+}
+
+
+a {
+	color: #FFD662FF;	
+}
+
+strong {
+	color: red;
+	text-outline: 2px 2px black;
+}
+
+
+em {
+	color: #FFA500;
+}
+
+h4 {
+	background-color: rgb(3, 37, 108, 0.1);
+}
+
+h5 {
+	color: #FFCC00;
+	font-size: 16px;
+	background-color: rgb(3, 37, 108, 0.4);
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+label {
+	text-decoration: none;
+	color: black;
+	text-shadow: none;
+	font: arial;
+}
+
+
+.images1 > img {
+	max-width: 30%;
+	border: solid 1px black;
+	border-radius: 50%;
+	}
+.images1 {
+	padding: 10px;
+	text-align: left;
+}
+.images2 > img{
+	max-width: 30%;
+	border: solid 1px black;
+	border-radius: 50%;
+	}
+.images2 {
+	padding: 10px;
+	text-align: left;
+}
+.images3 > img{
+	max-width: 30%;
+	border: solid 1px black;
+	border-radius: 50%;
+	}
+.images3 {
+	padding: 10px;
+	text-align: left;
+	text-wrap: left;
+}
+
+/* SLIDESHOW CONTAINER CODE SOURCE = https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 98%;
+  text-align: center;
+}
+
+/* Number text (1/3) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  /* padding: 8px 12px; */
+  padding: 15px 25%;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+div > img {
+	border: solid 3px black;
+}
+
+.ProductDes { 
+    margin-bottom: 3em;
+    padding: 50px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+	border-top:1px solid silver;
+}
+
+/* Bordered form */
+.login > form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.login > input[type=text], input[type=password] {
+  width: 25%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login > button {
+  background-color: black;
+  color: white;
+   padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+/* Add a hover effect for buttons */
+.login > button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+ .cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: black;
+  color: red;
+}
+
+/* Centre the product name */
+ .brandnamecontainer {
+  text-align: center;
+  font-size: 60px;
+}
+
+
+/* Add padding to containers */
+.login_container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+.login > span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #8b0000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+ .close:hover,
+ .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
