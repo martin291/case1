@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Feezer App" content="Delivers enviromentally friendly drinks right to your door" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<title>Feezer App</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">	
+
+		<link rel="stylesheet" href="Feezer.css"/>
+</head>
+<body> 
+  <div class="navbar">
+         <ul>
+			 <li><a href="#top"><strong>FEEZER</strong></a></li>
+			 <li><a href="#product">About The Product</a></li>
+			 <li><a href="#pricing">Pricing</a></li>
+			 <li><a href="#about">About Us</a></li>
+			 <li><a href="#contact">Contact Us</a></li>
+         </ul>
+     </div>
+<div>
+<header> 
+<h1>&nbsp;</h1> 
+</header>
+<section id="top">
+  <div class= "banner">
+   <img src="martin_images/banner.jpg" width="80%" alt="Website Banner">
+  </div>
+  </section>
+  <h4><em>Order Environmentally Friendly Drinks, Straight To Your Door</em></h4>
+
+<div class="content">
+<!-- Originally every section was going to be on a seperate page, this is why the images folder was named martin_images.
+However, each groub member supplied the images for their section -->
+
+<section id="product">
+	<div>	<h5> Biopolymer bottles!</h5>
+		  <img src="martin_images/AboutProductLogo.jpg" class = "AboutProductLogo" alt="Alt logo" width="50%">
+		  <img src="martin_images/bottles.webp" alt="Biopolymer bottles" width="50%">
+		  <br>
+        <div style = "border-top:1px solid silver;">
+            <section>		
+					<div class = "ProductDes"> 
+					<h6>Product Information Section By Shane Dixon</h6>	
+						<h1>About Our Product</h1>
+			            <p>Crafted with the environment and people in mind, <strong>Feezer</strong> is a delicious eco-friendly beverage which is natural to both the environment and our bodies.</p>
+			            <p> With use of natural recipes we offer flavours varying from strawberry, raspberry and even watermelon! Our all organic recipes would mean that there wouldn't be a lot of sugar and that it is also vegan friendly.</p>						
+						<p> We use a biopolymer plastic for our bottles in order to counteract the pollution left by regular polymer plastic bottles. A biopolymer plastic bottle uses nature to its own advantage in production hence the environment doesn’t suffer! </p>
+						<p> We have three main focuses:</p>
+						<ol>
+							<li>Customer Satisfaction</li>
+							<li>Nutrition</li>
+							<li>Saving the Environment</li>
+						</ol>
+						<p> We at <strong>Feezer</strong> believe that businesses can run smoothly without hurting the environment which is why we set forward in innovating newer and more modern plastics. </p>
+						
+					</div>						
+			</section>
+		</div>
+	</div>
+<hr>
+
+</section>
+<section id="pricing">
+<h6>Pricing Section By Martin Derwin</h6>
+<h1>
+Pricing
+</h1>
+<div class= "pricingimage1"> <img src="martin_images/phone.jpg" width="35%" alt="Phone" /> </div>
+<h3>Free Version<h3>
+<button type="button">Download Now On The App Store!</button>
+<h3>Premium<h3>
+<p><em>€4.99</em></p>
+<h5>Be The First To Know About New Flavours!</h5>
+<br/> <br/>
+<h3>Deliver for us!</h3>
+<!-- <button type="button">Apply Now!</button> -->
+
+
+<strong>Login and Apply Now!</strong>
+<div class="login">
+<!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="brandnamecontainer">
+      <strong>Feezer</strong>
+    </div>
+
+    <div class="login_container">
+      <label for="uname"><b>User/Driver Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+<br/>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+<br/>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+<h3>Products<h3>
+<p><em>€2 Bottle + €5 Delivery</em></p>
+</section>
+<br/><br/>
+<hr>
+<h1>Our Current Flavours</h1>
+<!-- SLIDESHOW CONTAINER CODE SOURCE = https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="martin_images/strawberries.jpg" style="width:60%">
+  <div class="text">Strawberry</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="martin_images/raspberries.jpg" style="width:60%">
+  <div class="text">Raspberry</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="martin_images/watermelon.jpg" style="width:60%">
+  <div class="text">Watermelon</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+
+
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+<br/><br/>
+
+
+
+
+<hr>
+
+ <section id="about">
+ <h6>About Us Section By Okikiola Sanni</h6>
+                <h1>About Us</h1>
+                <p>
+                    This website was made by three students from Dublin City University <a
+                        href="https://www.dcu.ie/courses/undergraduate/school-computing/computer-science">Computer
+                        Applications</a>
+                <p>
+                    An introduction of the three students that brought about the creation of <strong>FEEZER </strong>, as well each person's contribution to the development of this website, can be found below
+                </p>
+                <br>
+				<!--<div class="images1"> -->
+                <article>
+				
+                    <h3><em>Shane Dixon</em></h3>
+					    <div class="images1">
+                        <img src="martin_images/Shane.jpeg" alt="Shane" width="400" height="320">
+			            <p> Hi! My name is Shane. I enjoy learning about different things in general. Computer Applications appealed to me even though I knew barely a thing about computers, so the course has been tough but rewarding.</p>
+			             <p>For this website, I created the Product Description page and the CSS for our navbar. The description of the product is very important as it sets it apart and gives customers a reason to purchase the product.</p>
+                        </div>
+				</article>
+                <hr>
+                <article>
+                    <h3><em>Okikiola Sanni</em></h3>
+					<div class="images1">
+                        <img src="martin_images/Okikiola.jpeg" alt="Okikiola" width="400" height="270">
+			             <p>Hey there! My name is Okikiola, but you can call me 'Kiki'. I love doing research and exploring new things. I decided to Computer Applications because I feel this is the only field I can excel in, as I do not like anything medical.</p>
+			             <p> For this assignment, I created the About Us section. An introduction of the team members involved in the creation of <strong>"FEEZER"</strong> will make visitors feel secure about who they are dealing with, this might also make them feel connected to the brand.</p>
+                    </div>
+				</article>
+                <hr>
+                <article>
+                    <h3><em>Martin Derwin</em></h3>
+					<div class="images3">
+                        <img src="martin_images/Martin.jpeg" alt="Martin" width="400" height="320">
+			            <p> Hey! My name is Martin. I'm 19. I enjoy listening to music and playing video games with my friends. I chose to do Computer Applications because I'm interested in coding. The course has been a little tough so far but I'm managing.</p>
+			             <p>For this assignment, I created the Pricing section and Home area of our website. I wrote the remaining CSS for our website. The Home area is very important as it's the first thing users see when they open our website. A bad Home area can really dampen the user's experience with our website.</p>
+				    </div>
+					<hr>
+				</article>
+				<!-- </div> -->
+				</section>
+				
+				
+				
+				
+				 <section id="contact">
+                <h1>Contact Us</h1>
+                <div class="content">
+				<form action="https://formspree.io/martin.derwin2@mail.dcu.ie" method="post">
+                        <p>
+                            <label for="contact-name">Your name</label>
+                            <input id="contact-name" type="text" name="contact-name">
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email</label>
+                            <input id="contact-email" type="email" name="contact-email">
+                        </p>
+						<label for="contact-message">Your message</label>
+                        <p>
+                            
+                            <textarea id="contact-message" name="contact-message" rows="5"></textarea>
+                        </p>
+                        <div class="button">
+                            <input type="submit" value="Send Message">
+                        </div>
+				</form>
+                </div>
+            </section>
+			
+			
+
+ <footer>
+        <p>
+            &copy; <a href="https://dcu.ie">DCU 2021</a>
+            <span class="footer-separator">&middot;</span>
+            <span class="footer-text">Group P</span>
+            <span class="footer-separator">&middot;</span>
+            <span class="footer-text">
+                <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service">Valid
+                    HTML</a>
+            </span>
+        </p>
+    </footer>
+<br/>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
