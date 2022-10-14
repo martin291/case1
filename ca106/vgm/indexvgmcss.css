@@ -1,0 +1,125 @@
+/*body*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* colours and font */
+body{
+    background-color: #1A1B25; /*SETS BACKGROUND COLOUR TO RAISIN BLACK */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* navbar */
+.page-nav {
+    width: 100%;
+    position: fixed;
+    display: block;
+    border-bottom:10px solid #392061;
+}
+
+.page-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #48297A, #973595);
+    text-shadow: 5px 5px 5px #1a1b25;
+}
+.page-nav li {
+    float: left;
+}
+/* still styling navbar and dropdown bits*/
+.page-nav li a, .drpbtn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 200%;
+}
+.page-nav li a:hover, .dropdown:hover .dropbtn {
+    background-color: #1f0625;
+    color: white;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #48297A;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    font-size: 50%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.page-nav {
+	border-bottom: 10px solid #392061; /*BORDER SEPERATING NAVBAR FROM REST OF DOCUMENT*/
+}
+
+
+
+/* intro */
+.container-content {
+	float: left;
+	max-width: 55%;
+	border-style: ridge;
+	border-width: 10px;
+    margin: 20px;
+	padding: 7px;
+	border-color: #48297A;
+	background-color: rgba(130,46,129,0.2); /*SLIGHLY TRANSPARENT BACKGROUND COLOUR - found here https://www.w3schools.com/css/css_image_transparency.asp */
+}
+
+
+h2 {
+	width: 50%;
+	text-align: center;
+	background-color: #822E81;
+	color: white;
+	font-size: 30px;
+}
+
+.content > p {
+	text-align: left;
+	font-size: 18px
+}
+
+.images img {
+	margin: 6px;
+	border-bottom: 5px solid  rgba(130,46,129);
+	border-top: 2px dotted  rgba(130,46,129);
+}
+
+/*styles for article button links*/
+
+.buttons a:link, a:visited { /* TURNS LINKS INTO BUTTONS - https://www.w3schools.com/css/css3_buttons.asp */
+  background-color: #A63AA4;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttons a:hover, a:active { 
+  background-color:  #822E81;
+}
+
+ 
+

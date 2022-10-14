@@ -1,0 +1,31 @@
+<HTML>
+ <HEAD>
+ <TITLE> Table</TITLE>
+ <link rel= "stylesheet" type= "text/css" href= "week9csssheet.css"/>
+ </HEAD>
+ <BODY>
+ <TABLE BORDER>
+ <TR>
+ <TH> Column 1 </TH> <TH> Column 2 </TH> <TH> Column 3 </TH>
+ </TR>
+ <TR>
+ <TD COLSPAN=2>(1,1)&(2,1)</TD><TD>(3,1)</TD>
+ </TR>
+ <TR>
+ <TD>
+ <TABLE BORDER>
+ <TR>
+ <TH> Column 1 </TH> <TH> Column 2 </TH> <TH> Column 3 </TH>
+ </TR>
+ <TR>
+ <TD ROWSPAN = "2">(1,1)&(1,2)</TD><TD>(2,1)</TD><TD>(3,1)</TD>
+ </TR>
+ <TR>
+ <TD>(2,2)</TD><TD>(3,2)</TD>
+ </TR>
+ </TABLE>
+ </TD><TD>(2,2)</TD><TD>(3,2)</TD>
+ </TR>
+ </TABLE>
+ </BODY>
+</HTML>

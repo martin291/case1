@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Martin Derwin</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts  a good link is https://fonts.google.com/-->
+	
+	<link rel="stylesheet" href="css/layout.css" /> 
+</head>
+
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body>
+    <main class= "main-style";>
+	 <header>  <!-- The header tag represents introductory content. It may contain the author's name, header elements (<h1> - <h6>) or a logo-->
+            <div class="header-content">  <!--The div tag represents a division or section of the html doc. This <div> can then be styled in CSS. Any sort of content can be put inside the <div> element -->
+                <h1>Martin Derwin</h1>
+                <p>A CA1 student with a passion for all things Computing</p>
+            </div>
+        </header>
+	    <!-- You could style Main here if you wish-->
+        <nav class="page-nav"> <!-- the navigation part of the page.  Note links just jump to different parts of the page.-->
+            <ul>
+                <li><a href="#about">About Me</a></li>
+				<br/>
+                <li><a href="#work">Work Experience</a></li>
+				<br/>
+                <li><a href="#images">Image Gallery</a></li>
+				<br/>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+       
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+        <section id="about" >  <!--Containers are used to pad the content inside of them. ID specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document. The syntax in CSS is #(ID name) followed by {...(CSS properties)...}-->
+            <div class="container-content">
+                <h2>About Me</h2>
+                <div class="content">
+                    <!-- add your 150 word maximum About Me content here.  Use HTML you know, marks for the HTML.  Marks deducted for poor grammar, spelling errors etc. -->
+					<p>Hello and welcome to my page. I'm Martin!</p>
+					<p> I'm from Dublin, Ireland. I'm in my first year at DCU, studying Computer Applications. 
+					I'm enjoying the course and have made quite a few new friends. 
+				 I don't have that much prior experience with HTML and CSS however, I feel I am getting the hang of it very quickly. 
+					<br/> <br/>
+					When I'm not doing college work I like to spend my time listening to music, watching movies, playing video games and chatting to friends over Discord. 
+					I don't play sports but I try to stay fit and healthy. 
+					I go on walks often and I like learning new recipes to cook or bake.
+					I also enjoy art but I wouldn't say I'm very good at it.
+					I sometimes follow Bob Ross tutorials or draw portraits of people.
+					<br/><br/>
+                    I am enjoying college but I miss my secondary school. TY was a very fun year. I went on school trips to Germany and the West of Ireland. I enjoyed the weeks of work experience I got in TY.</p>
+					<p>
+					<figure>
+					<img src="C:\Users\mbddu\OneDrive\Desktop\portfolio\portfolio\images\Martem.jpg" alt="Picture of me" title="Picture of me" height="280 width= "200"/>
+					<img src="C:\Users\mbddu\OneDrive\Desktop\portfolio\portfolio\images\Derwem.png" alt="Picture of me and friend" title="Picture of me and friend" height= "400" width= "200"/>
+					<figcaption>Picture of me and friend</figcaption>
+					</figure>
+					</p>
+                </div>
+            </div>
+        </section>
+ <br/>
+        <section id="work" >
+            <div class="container-content">
+                <h2>Work Experience</h2>
+                <div class="content">
+                    <!-- add your 200 word maximum work experience content here.  You can use lists of things as well as paragraphs.  Show off the HTML you know.  marks for the HTML, and how well you use it. marks deducted for poor grammar or spelling errors-->
+                <p>During TY I spent weeks working in a few different places:</p>
+				<ul>
+				<li><p> I worked for a week at <a href="http://nearfm.ie/">NearFM Radio Station</a>.
+				I sat in with the radio presenters and observed them work. Each day a different volunteer would have a show prepared. 
+				I learnt what each button and switch on the control panel did. For example:
+				    <ol><li> How to fade in out of a song</li><li> How to play a song from a CD or through Spotify </li> <li>How to take live calls</li></ol></li>
+				<br/>
+				<li> <p>I worked for two weeks at the <a href="https://www.gov.ie/en/publication/31ca36-heritage-services-state-art-collection/#">Office of Public Works State Art Collection</a> 
+				. I spent that time going to several Art exhibitions, organising folders and unboxing paintings and transporting art pieces.</li>
+				<li><p> I spent half a week at <a href= "https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/ireland">Ericcson</a> learning Scratch and some basic Python with my peers. We worked in groups of four, designing a game in scratch.</p></li>
+				<li> <p> I worked at <a href= "http://www.pcmoore.ie/">PC Moore & Company Solicitors</a> for about a week. I spent most of the time reading books on law or answering phone calls. However, on the second last day I was brought to the <a href="https://en.wikipedia.org/wiki/Four_Courts">Four Courts</a>
+				to be shown around. We spent the entire day taking the Luas around town. </p> </li>
+				</ul>
+				</div>
+            </div>
+        </section>
+				<br><br>
+
+        <section id="images">
+            <div class="container-content">
+                <h2>Image Gallery</h2>
+                <div class="content">
+                    <div>
+                        <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+						<img src="C:\Users\mbddu\OneDrive\Desktop\portfolio\portfolio\images\DCU.jpg" alt="DCU college" width="700" height="450">
+						<div class="image-caption">This is DCU college. I walk here every Thursday to spend a few hours on campus doing work and study. I like the college a lot. Hopefully when restrictions are eased I can explore more of it. I'd like to start going to the library during breaks to study and read</div>
+                    </div>
+                    <div>
+                        <!-- add image two here with 150 word maximum caption -->
+						<img src="C:\Users\mbddu\OneDrive\portfolio\portfolio\images\Dublin.jpg" alt="Dublin, where I live" width="700" height="350">
+                        <div class="image-caption">This is Dublin's city centre</div>
+                    </div>
+                    <div>
+                        <!-- add image three here with 150 word maximum caption -->
+                        <img src="C:\Users\mbddu\OneDrive\Desktop\portfolio\portfolio\images\Video Game.jpg" alt="Image of person playing video game" width="500" height="300" class="center">
+						<div class="image-caption">I like playing video games with friends</div>
+                    </div>
+					<div>
+                        <!-- add image three here with 150 word maximum caption -->
+                        <img src="C:\Users\mbddu\OneDrive\Desktop\portfolio\portfolio\images\cereal and tea.jpg" alt="Image of cereal and tea" width="400" height="400" class="center">
+						<div class="image-caption">Breakfast is usually my favourite meal of the day</div>
+					</div>
+                    <div>
+					   <!-- Map of DCU / found using course notes-->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2010.891244720842!2d-6.258557284160055!3d53.38609377998738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e1b2f9d5d03%3A0x12bb45984107c2a8!2sDublin%20City%20University!5e1!3m2!1sen!2sie!4v1606075551396!5m2!1sen!2sie" width="700" height="550" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/martin.derwin2@mail.dcu.ie" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id = "footer-layout">
+                <p> &copy; <a href="dcu.ie/">DCU 2019-2020</a>
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Martin Derwin</span> <span class="footer-separator">&middot;</span> <span class="footer-text">This is student coursework</span> <span class="footer-separator">&middot;</span> <span class="footer-text">Lecturer<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> <span class="footer-separator">&middot;</span> <span class="footer-text">
+     <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+	 
+        </span> </p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+    </main>
+</body>
+
+</html>
